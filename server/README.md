@@ -26,13 +26,13 @@ build environment:
 ## 克隆仓库
 
 ```shell
-git clone https://gitee.com/duyiedu/mysite-server
+git clone https://github.com/da-xiansheng/Personal-Blog/tree/92d6763aeb077daa3055ab24c23563b404bd9b48/server
 ```
 
 ## 安装依赖
 
 ```shell
-$ cd mysite-server
+$ cd server
 $ npm i
 ```
 
@@ -44,7 +44,7 @@ $ npm i
 
 ```js
 // 用于加密的秘钥
-exports.keys = "mysite-server_1619336153310_6069"; // 为避免安全问题，强烈建议修改该值
+exports.keys = "server_1619336153310_6069"; // 为避免安全问题，强烈建议修改该值
 ```
 
 ```js
@@ -62,7 +62,7 @@ exports.admin = {
 
 完成之后，即可启动服务
 
-进入`mysite-server`根目录，进入终端，运行下面的命令即可启动服务
+进入`server`根目录，进入终端，运行下面的命令即可启动服务
 
 ```shell
 npm start
@@ -80,4 +80,4 @@ npm start
 
 但如果你在服务运行过程中更改了服务端代码，例如配置内容，则需要停止服务后重新启动
 
-如果需要停止服务，进入`mysite-server`目录，运行`npm stop`即可
+如果需要停止服务，进入`server`目录，运行`npm stop`即可
