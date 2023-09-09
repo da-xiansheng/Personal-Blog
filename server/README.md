@@ -26,7 +26,7 @@ build environment:
 ## 克隆仓库
 
 ```shell
-git clone https://github.com/da-xiansheng/Personal-Blog/tree/92d6763aeb077daa3055ab24c23563b404bd9b48/server
+git clone https://github.com/da-xiansheng/Personal-Blog/tree/main/server
 ```
 
 ## 安装依赖
